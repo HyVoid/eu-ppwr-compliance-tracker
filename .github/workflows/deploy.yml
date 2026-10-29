@@ -25,7 +25,7 @@ jobs:
           # "Dependencies lock file is not found. Supported file patterns: package-lock.json, npm-shrinkwrap.json, yarn.lock"
 
       - name: Install Dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Build Application
         run: npm run build
