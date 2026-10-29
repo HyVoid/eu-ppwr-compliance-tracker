@@ -1,0 +1,155 @@
+@import "tailwindcss";
+
+:root {
+  /* ── Core Palette ── */
+  --color-primary: #051C2C;
+  --color-accent: #2251FF;
+  --color-bg: #F5F5F2;
+  --color-muted: #888888;
+  --color-body-text: #1A1A2E;
+
+  /* ── Semantic (Action required / anomaly only) ── */
+  --color-positive: #00C853;
+  --color-negative: #D32F2F;
+
+  /* ── Surface & Input ── */
+  --color-surface: #FFFFFF;
+  --color-input-bg: #FFFDE7;
+  --color-border: #E8E8E6;
+
+  /* ── Navigation Surface ── */
+  --nav-bg: #FFFFFF;
+  --nav-border: #E8E8E6;
+  --nav-text: #051C2C;
+  --nav-text-inactive: rgba(5, 28, 44, 0.45);
+
+  /* ── Table Header & Accents ── */
+  --table-header-bg: rgba(5, 28, 44, 0.04);
+  --table-header-sep: rgba(5, 28, 44, 0.12);
+
+  /* ── Insight & Anomaly Surfaces ── */
+  --insight-bg: rgba(34, 81, 255, 0.04);
+  --anomaly-bg: rgba(211, 47, 47, 0.04);
+
+  /* ── Typography ── */
+  --font-heading: 'EB Garamond', 'Garamond', Georgia, serif;
+  --font-body: 'Noto Sans SC', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+
+  /* ── Tracking ── */
+  --tracking-display: -0.03em;
+  --tracking-heading: -0.02em;
+  --tracking-label: 0.06em;
+
+  /* ── Radius System ── */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-pill: 9999px;
+
+  /* ── Shadow System ── */
+  --shadow-sm: 0 1px 2px rgba(5, 28, 44, 0.04), 0 2px 8px rgba(5, 28, 44, 0.06);
+  --shadow-md: 0 2px 4px rgba(5, 28, 44, 0.04), 0 8px 24px rgba(5, 28, 44, 0.08), inset 0 1px 0px rgba(255, 255, 255, 0.6);
+  --shadow-lg: 0 4px 8px rgba(5, 28, 44, 0.06), 0 16px 48px rgba(5, 28, 44, 0.14), inset 0 1px 0px rgba(255, 255, 255, 0.5);
+  --shadow-nav: 0 1px 3px rgba(5, 28, 44, 0.06), 0 1px 0px rgba(5, 28, 44, 0.08);
+
+  /* ── Nav Height ── */
+  --nav-height: 56px;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-body-text);
+  font-family: var(--font-body);
+  font-size: 13px;
+  line-height: 1.5;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Font classes */
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+.tracking-display {
+  letter-spacing: var(--tracking-display);
+}
+
+.tracking-heading {
+  letter-spacing: var(--tracking-heading);
+}
+
+.tracking-table-head {
+  letter-spacing: var(--tracking-label);
+}
+
+/* Page entrance motion */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fadeUp 220ms cubic-bezier(0.0, 0.0, 0.2, 1.0) both;
+}
+
+/* Card hover animation */
+.card-lift {
+  transition: transform 250ms cubic-bezier(0.34, 1.56, 0.64, 1.0), box-shadow 250ms ease;
+}
+
+.card-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Interactive status cell hover */
+.status-cell-interactive {
+  transition: transform 150ms ease, filter 150ms ease;
+  cursor: pointer;
+}
+
+.status-cell-interactive:hover {
+  transform: scale(1.04);
+  filter: brightness(1.06);
+}
+
+/* Insight block */
+.insight-block {
+  background-color: var(--insight-bg);
+  border-left: 3px solid var(--color-accent);
+}
+
+/* Anomaly row */
+.anomaly-row {
+  background-color: var(--anomaly-bg) !important;
+}
+
+/* Editable cell background */
+.editable-cell {
+  background-color: var(--color-input-bg);
+  border-bottom: 1px dashed rgba(5, 28, 44, 0.2);
+}
+
+.editable-cell:focus, .editable-cell:focus-within {
+  outline: 2px solid var(--color-accent);
+  outline-offset: -1px;
+  background-color: #FFFFFF;
+}
+
+/* Tabular figures */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
