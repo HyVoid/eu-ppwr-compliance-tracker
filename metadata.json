@@ -1,6 +1,0 @@
-{
-  "name": "PPWR Packaging Compliance Tracker",
-  "description": "Enterprise PPWR packaging compliance data, evidence audit engine, and EU DoC readiness management system.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}

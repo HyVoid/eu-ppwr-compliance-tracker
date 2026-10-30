@@ -1,3 +1,5 @@
+[ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
+
 # EU PPWR Packaging Compliance Tracker: Supplier Evidence, Recycled Content & EU DoC Readiness Tool (Free Web App & Excel Template)
 <img width="1920" height="790" alt="image" src="https://github.com/user-attachments/assets/04c079b8-821c-4b40-857f-cc654a9e34f7" />
 
@@ -11,8 +13,8 @@
 
 > **Choose your deployment mode:** Test the workflow immediately in your browser with zero installation, or download the full Microsoft Excel template for persistent multi-SKU data management, recurring supplier audits, and offline regulatory record-keeping.
 >
-> - 🌐 **[Launch the Free Online PPWR Packaging Compliance Assessment Tool (Interactive HTML Web App)](./index.html)** — Run instant packaging data validations, test rule thresholds, and explore the EU DoC readiness workflow directly in your browser (no signup or software installation required).
-> - 📥 **[Download the Multi-SKU PPWR Compliance & Supplier Evidence Tracker (.xlsx Excel Workbook Template)](https://theseusworkshop.com/l/kbsrhr)** — Get the complete 6-sheet Excel workbook from the project release page for offline supplier intake, automated `XLOOKUP`/`LET` formula checks, CAPA deadline tracking, and compliance budget management.
+> - 🌐 **[Launch the Free Online PPWR Packaging Compliance Assessment Tool (Interactive HTML Web App)](https://hyvoid.github.io/eu-ppwr-compliance-tracker/** — Run instant packaging data validations, test rule thresholds, and explore the EU DoC readiness workflow directly in your browser (no signup or software installation required).
+> - 📥 **[Download the Multi-SKU PPWR Compliance & Supplier Evidence Tracker (.xlsx Excel Workbook Template)](https://theseusworkshop.com/l/kbsrhr?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=eu-ppwr-compliance-tracker)** — Get the complete 6-sheet Excel workbook from the project release page for offline supplier intake, automated `XLOOKUP`/`LET` formula checks, CAPA deadline tracking, and compliance budget management.
 >
 
 ---
@@ -37,7 +39,7 @@ Managing **EU Packaging and Packaging Waste Regulation (PPWR)** compliance acros
 Standardize your supplier packaging inputs once, run automated rule validations against **Regulation (EU) 2025/40**, and focus your regulatory team's time on verifying laboratory evidence and closing compliance blockers.
 
 ### Step 1: Configure EU PPWR Regulatory Thresholds & Assessment Baseline
-**Action:** **[Open the Free Browser-Based PPWR Compliance Tool](./index.html)** (or open Sheet `01_Rule_Parameter_Register` in Excel) and set your assessment baseline.
+**Action:** **[Open the Free Browser-Based PPWR Compliance Tool](https://hyvoid.github.io/eu-ppwr-compliance-tracker/** (or open Sheet `01_Rule_Parameter_Register` in Excel) and set your assessment baseline.
 - Define the assessment date, reporting currency, exchange-rate factor, and active **PPWR rule-library version**.
 - Configure operational thresholds for **heavy metal limits (Lead, Cadmium, Mercury, Hexavalent Chromium <= 100 ppm)**, **PFAS food-contact restrictions**, **Post-Consumer Recycled (PCR) content targets**, and **maximum 50% empty space (void space) ratios**.
 - Lock these parameters to establish a unified audit standard across all product lines and supplier submissions.
@@ -58,7 +60,7 @@ Standardize your supplier packaging inputs once, run automated rule validations 
 **Action:** Verify product-level readiness before authorized sign-off, then transition from single-session browser testing to the persistent **Microsoft Excel Compliance Workbook**.
 - Check the consolidated readiness dashboard to confirm three independent gates: **100% supplier data completeness**, **approved expert evidence review**, and **zero open DoC-blocking CAPA items**.
 - Compile your **Annex VII Technical Documentation** package and **EU DoC draft references** once all stage-gates clear.
-- **Ready to manage recurring audits and multi-SKU portfolios?** The web application is built for instant, zero-install sandbox testing of individual workflows. Once you finish your initial browser trial, **[Download the Reusable PPWR Compliance Excel Workbook (.xlsx Template)](https://theseusworkshop.com/l/kbsrhr)** to unlock persistent offline storage, track up to **50 products and 500 packaging components**, manage multi-round supplier data collection, and maintain historical audit trails across regulatory review cycles.
+- **Ready to manage recurring audits and multi-SKU portfolios?** The web application is built for instant, zero-install sandbox testing of individual workflows. Once you finish your initial browser trial, **[Download the Reusable PPWR Compliance Excel Workbook (.xlsx Template)](https://theseusworkshop.com/l/kbsrhr?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=eu-ppwr-compliance-tracker)** to unlock persistent offline storage, track up to **50 products and 500 packaging components**, manage multi-round supplier data collection, and maintain historical audit trails across regulatory review cycles.
 
 ---
 
