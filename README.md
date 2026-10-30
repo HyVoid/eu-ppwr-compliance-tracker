@@ -1,4 +1,6 @@
 # EU PPWR Packaging Compliance Tracker: Supplier Evidence, Recycled Content & EU DoC Readiness Tool (Free Web App & Excel Template)
+<img width="1920" height="790" alt="image" src="https://github.com/user-attachments/assets/04c079b8-821c-4b40-857f-cc654a9e34f7" />
+
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Web%20Browser%20%7C%20Microsoft%20Excel%20(.xlsx)-217346.svg)
