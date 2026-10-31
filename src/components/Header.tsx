@@ -70,10 +70,10 @@ export const Header: React.FC<HeaderProps> = ({
           </div>
           <div>
             <div className="font-heading font-semibold text-[17px] text-[var(--color-primary)] tracking-tight leading-none">
-              PPWR Packaging Compliance Tracker
+              Theseus Workshop
             </div>
-            <div className="text-[10px] text-[var(--color-muted)] font-mono leading-tight tracking-wider uppercase mt-0.5">
-              EU Regulation (EU) 2024/2026 Engine
+            <div className="text-[10px] text-[var(--color-muted)] font-mono leading-tight tracking-wider mt-0.5">
+              PPWR Packaging Compliance Tracker
             </div>
           </div>
         </div>

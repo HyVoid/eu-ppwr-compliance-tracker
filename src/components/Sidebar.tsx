@@ -134,12 +134,12 @@ export const Sidebar: React.FC<SidebarProps> = ({
               <div className="w-8 h-8 rounded-lg bg-[var(--color-primary)] text-white flex items-center justify-center font-bold text-sm shadow-sm shrink-0">
                 <ShieldCheck className="w-5 h-5 text-blue-300" />
               </div>
-              <div>
-                <div className="font-heading font-semibold text-[16px] text-[var(--color-primary)] tracking-tight leading-none">
-                  PPWR Tracker
+              <div className="min-w-0">
+                <div className="font-heading font-semibold text-[15px] text-[var(--color-primary)] tracking-tight leading-tight truncate">
+                  Theseus Workshop
                 </div>
-                <div className="text-[10px] text-[var(--color-muted)] font-mono leading-tight uppercase tracking-wider mt-0.5">
-                  Regulation (EU) 2024
+                <div className="text-[10px] text-[var(--color-muted)] font-mono leading-tight tracking-wider mt-0.5 truncate" title="PPWR Packaging Compliance">
+                  PPWR Packaging Compliance
                 </div>
               </div>
             </div>

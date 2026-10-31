@@ -87,7 +87,10 @@ export const TopBar: React.FC<TopBarProps> = ({
 
           <div className="flex items-center gap-2 text-[13px]">
             <span className="font-semibold text-[var(--color-primary)] hidden sm:inline">
-              PPWR Tracker
+              Theseus Workshop
+            </span>
+            <span className="text-[11px] font-mono text-[var(--color-muted)] hidden lg:inline bg-gray-100 px-1.5 py-0.5 rounded">
+              PPWR Packaging Compliance
             </span>
             <ChevronRight className="w-4 h-4 text-gray-300 hidden sm:inline" />
             <div>
