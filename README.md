@@ -236,7 +236,9 @@ The workbook uses `LET` to bind intermediate variables inside complex validation
 
 ## Other Decision-Support Tools in This Series
 
-Explore other lightweight, zero-install browser and Microsoft Excel operational management tools in this repository. Every tool is built around structured master data, transparent spreadsheet formulas, and stage-gated business decision workflows.
+* **[cars-702-705-flight-duty-time-tracker-excel](https://github.com/HyVoid/cars-702-705-flight-duty-time-tracker-excel)** — Which aviation compliance rule or operating constraint applies? — Interpret aviation compliance requirements into operational flight duty constraints.
+* **[Reckon-IIF-Converter](https://github.com/HyVoid/Reckon-IIF-Converter)** — How do we reduce accounting import and migration risk? — Convert CRM invoice exports into validated import-ready accounting file formats.
+* **[shopify-etsy-vat-calculator](https://github.com/HyVoid/shopify-etsy-vat-calculator)** — Can this month's multi-country VAT filing be submitted with confidence? — Calculate and validate monthly multi-country VAT liabilities across Shopify and Etsy transaction data.
 
 ## License
 
