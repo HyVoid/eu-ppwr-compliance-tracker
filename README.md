@@ -31,6 +31,14 @@ Complying with the **EU Packaging and Packaging Waste Regulation (PPWR - EU 2025
 | **Lost Compliance Fixes & Missed Shipment Deadlines** | Failed lab tests and missing PCR certificates get buried in email threads, stalling **EU Declaration of Conformity (EU DoC)** sign-off before product launch. | **CAPA & Compliance Gap Action Tracker:** Assigns every failed check to a specific owner with a due date, remediation task, and a hard **EU DoC-Blocking Indicator**. |
 | **Unpredictable Lab Testing & Packaging Redesign Costs** | Emergency third-party chemical testing and last-minute box resizing blow past product launch budgets. | **Compliance Testing & Remediation Cost Roll-Up:** Tracks quoted laboratory testing fees and corrective-action expenses per packaging part, rolling up total financial exposure by SKU. |
 
+## Spreadsheet Preview
+
+Want to take a closer look before downloading? You can preview the spreadsheet in Google Sheets to explore its layout, structure, and calculation logic.
+
+**[View Spreadsheet Preview on Google Sheets](https://docs.google.com/spreadsheets/d/1ZSWkSxuryehL8QHPa9byUD8B_wZvqDBK/edit?usp=sharing&ouid=108770714531989318327&rtpof=true&sd=true)**
+
+> **Note on Compatibility:** The Google Sheets preview may display occasional `#NAME?` errors or formula warnings due to differences between Google Sheets and Microsoft Excel formula compatibility. These are preview-only compatibility issues and do not affect the functionality of the original Excel workbook. For the intended formula behavior and full functionality, please download and open the `.xlsx` file in Microsoft Excel.
+
 ---
 
 ## Quick Start Tutorial: How to Audit EU PPWR Packaging Compliance in 4 Steps
